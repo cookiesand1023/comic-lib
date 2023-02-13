@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/kukikyosuke/.nodebrew/node/v18.4.0/bin/node /Users/kukikyosuke/.nodebrew/current/bin/yarn add puppeteer csv-write
+
+PATH: 
+  /Users/kukikyosuke/.nodebrew/current/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/kukikyosuke/.sdkman/candidates/java/current/bin:/Users/kukikyosuke/.nodebrew/current/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/csv-write: Not found
+      at params.callback [as _callback] (/Users/kukikyosuke/.nodebrew/node/v18.4.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/kukikyosuke/.nodebrew/node/v18.4.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:537:28)
+      at Request.<anonymous> (/Users/kukikyosuke/.nodebrew/node/v18.4.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:537:28)
+      at IncomingMessage.<anonymous> (/Users/kukikyosuke/.nodebrew/node/v18.4.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:651:28)
+      at IncomingMessage.emit (node:events:549:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "data",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.2.3",
+      "fast-xml-parser": "^4.0.14",
+      "ts-node": "^10.9.1",
+      "typescript": "^4.9.4"
+    },
+    "devDependencies": {
+      "@types/node": "^18.11.18"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
